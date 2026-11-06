@@ -41,6 +41,6 @@ browsers. (This is to help well-intentioned people avoid accidental copying
 that doesn't comply with the license.)
 
 Our standard headers for various filetypes can be found in
-[./hack/boilerplate](./hack/boilerplate/). Run `hack/verify/boilerplate.sh` to
+[./scripts/boilerplate](./scripts/boilerplate/). Run `scripts/verify/boilerplate.sh` to
 check that every file has a valid header; CI runs the same check on every pull
 request.

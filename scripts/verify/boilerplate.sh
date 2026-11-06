@@ -19,4 +19,4 @@ set -o errexit -o nounset -o pipefail
 ROOT="$(git rev-parse --show-toplevel)"
 cd "${ROOT}"
 
-hack/util/verify-boilerplate.py
+scripts/util/verify-boilerplate.py
